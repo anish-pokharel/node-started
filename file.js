@@ -24,9 +24,11 @@ const fs = require("fs");
 
 // fs.appendFileSync("challange1.txt", " hello its me anish pokharel");
 
-const cha_data = fs.readFileSync("challange1.txt");
-console.log(cha_data);
+// const cha_data = fs.readFileSync("challange1.txt");
+// console.log(cha_data);
 
-cha_orgdata = cha_data.toString();
-console.log(cha_orgdata);
-fs.renameSync("challange1.txt", "challange1completed.txt");
+// cha_orgdata = cha_data.toString();
+// console.log(cha_orgdata);
+// fs.renameSync("challange1.txt", "challange1completed.txt");
+
+// main challange
