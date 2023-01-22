@@ -12,7 +12,12 @@ const fs = require("fs");
 // org_data = buf_data.toString();
 // console.log(org_data);
 
-fs.renameSync("read.txt", "readwrite.txt");
+// fs.renameSync("read.txt", "readwrite.txt");
 
 // const name = "anish";
 // console.log(name);
+
+// challange 1
+
+fs.writeFileSync("challange1.txt", "hello this is challang ");
+fs.writeFileSync("challange1.txt", "challange update");
