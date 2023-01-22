@@ -19,5 +19,14 @@ const fs = require("fs");
 
 // challange 1
 
-fs.writeFileSync("challange1.txt", "hello this is challang ");
-fs.writeFileSync("challange1.txt", "challange update");
+// fs.writeFileSync("challange1.txt", "hello this is challang ");
+// fs.writeFileSync("challange1.txt", "challange update");
+
+// fs.appendFileSync("challange1.txt", " hello its me anish pokharel");
+
+const cha_data = fs.readFileSync("challange1.txt");
+console.log(cha_data);
+
+cha_orgdata = cha_data.toString();
+console.log(cha_orgdata);
+fs.renameSync("challange1.txt", "challange1completed.txt");
