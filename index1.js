@@ -6,4 +6,5 @@ const fs = require("fs");
 // const data = fs.readFileSync("thapa/bio.txt", "utf-8");
 // console.log(data);
 
-fs.unlinkSync("thapa/bio.txt");
+// fs.unlinkSync("thapa/bio.txt");
+// fs.rmdirSync("thapa");
