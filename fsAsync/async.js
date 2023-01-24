@@ -1,4 +1,4 @@
-const fs = require("fs");
+// const fs = require("fs");
 
 // fs.writeFile(
 //   "read.txt",
@@ -21,7 +21,15 @@ const fs = require("fs");
 
 // });
 
-fs.readFile("read.txt", "utf-8", (err, data) => {
-  console.log(data);
-  // console.log(err);
-});
+// fs.readFile("read.txt", "utf-8", (err, data) => {
+//   console.log(data);
+//   console.log(err);
+// });
+var http = require("http");
+
+http
+  .createServer(function (req, res) {
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.end("Hello World!");
+  })
+  .listen(8080);
