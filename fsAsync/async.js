@@ -15,7 +15,12 @@ const fs = require("fs");
 //   console.log(err);
 // });
 
+// fs.readFile("read.txt", "utf-8", (err, data) => {
+//   console.log("read file");
+//   console.log(data);
+// });
+
 fs.readFile("read.txt", "utf-8", (err, data) => {
-  console.log("read file");
   console.log(data);
+  // console.log(err);
 });
