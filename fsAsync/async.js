@@ -25,7 +25,7 @@
 //   console.log(data);
 //   console.log(err);
 // });
-var http = require("http");
+const http = require("http");
 
 //create a server object:
 http
