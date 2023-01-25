@@ -11,4 +11,6 @@ const fs = require("fs");
 //   console.log("folder created");
 // });
 
-fs.writeFile("./thapa/bio.txt ", "my name is anish pokharel");
+fs.writeFile("./thapa/bio.txt ", "my name is anish pokharel"(err)=>{
+    console.log("file created")
+});
