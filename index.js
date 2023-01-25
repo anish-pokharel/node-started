@@ -6,3 +6,4 @@
 
 // js expression use variable ultiline code use _ to get last result  editiior mode
 const fs = require("fs");
+fs.mkdir(thapa);
