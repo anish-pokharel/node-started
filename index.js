@@ -11,6 +11,16 @@ const fs = require("fs");
 //   console.log("folder created");
 // });
 
-fs.writeFile("./thapa/bio.txt ", "my name is anish pokharel", (err) => {
-  console.log("file created");
+// fs.writeFile("./thapa/bio.txt ", "my name is anish pokharel", (err) => {
+//   console.log("file created");
+// });
+
+// fs.appendFile("./thapa/bio.txt ", "plz say what is your name", (err) => {
+//   console.log("fie data append");
+// });
+// console.log(error);
+fs.rmdir("thapa/bio.txt", (err) => {
+  console.log("completed");
 });
+
+// fs.rmdirSync("./thapa");
