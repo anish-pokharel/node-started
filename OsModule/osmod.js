@@ -1,3 +1,3 @@
-const os = rewuire("os");
+const os = require("os");
 
 console.log(os.arch());
