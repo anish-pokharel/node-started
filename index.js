@@ -5,7 +5,7 @@
 // repl
 
 // js expression use variable ultiline code use _ to get last result  editiior mode
-const fs = require("fs");
+// const fs = require("fs");
 
 // fs.mkdir("thapa", (err) => {
 //   console.log("folder created");
@@ -19,8 +19,11 @@ const fs = require("fs");
 //   console.log("fie data append");
 // });
 // console.log(error);
-fs.rmdir("thapa/bio.txt", (err) => {
-  console.log("completed");
-});
+
+// fs.rmdir("thapa/bio.txt", (err) => {
+//   console.log("completed");
+// });
 
 // fs.rmdirSync("./thapa");
+
+os module 
