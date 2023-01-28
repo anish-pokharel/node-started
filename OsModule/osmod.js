@@ -12,3 +12,14 @@
 
 // const totalMemory = os.totalmem();
 // console.log(`${totalMemory / 1024 / 1024 / 1024}`);
+
+const os = require("os");
+// console.log(os.arch());
+console.log(os.hostname());
+console.log(os.hostname());
+console.log(os.platform());
+console.log(os.tmpdir());
+console.log(os.freemem());
+console.log(os.endianness());
+
+console.log(os.freemem());
