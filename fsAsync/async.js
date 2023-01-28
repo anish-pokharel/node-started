@@ -45,14 +45,15 @@
 //   .listen(8080);
 
 // sync once completed and another
-// const fs = require("fs");
-// const data = fs.readFileSync("read.txt", "utf-8");
-// console.log(data);
-// console.log("after the data");
+sync;
+const fs = require("fs");
+const data = fs.readFileSync("read.txt", "utf-8");
+console.log(data);
+console.log("after the data");
 
-// const fs = require("fs");
+const fs = require("fs");
 
-// fs.readFile("read.txt", "utf-8", (err, data) => {
-//   console.log(" data");
-// });
-// console.log("after the data");
+fs.readFile("read.txt", "utf-8", (err, data) => {
+  console.log(" data");
+});
+console.log("after the data");
