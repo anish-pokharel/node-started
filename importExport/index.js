@@ -2,7 +2,6 @@ const oper = require("./oper");
 // const sub = require("./oper");
 // const name = require("./oper");
 console.log(oper);
-
-// console.log(add(5, 5));
-// console.log(sub(15, 5));
-// console.log(name);
+console.log(oper.name);
+console.log(oper.add(5, 5));
+console.log(oper.sub(15, 5));
