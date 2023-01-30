@@ -5,3 +5,4 @@ console.log(oper);
 console.log(oper.name);
 console.log(oper.add(5, 5));
 console.log(oper.sub(15, 5));
+console.log(oper.mult(2, 7));
