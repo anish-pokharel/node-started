@@ -12,3 +12,4 @@ console.log(oper.divi(100, 2));
 console.log(oper1.divide(1000, 2500));
 
 console.log(oper1.multiple(2, 3, 1));
+console.log(oper1.multiple(2, 3, 3));
