@@ -11,3 +11,4 @@ console.log(oper.mult(2, 7));
 console.log(oper.divi(100, 2));
 console.log(oper1.divide(1000, 2500));
 console.log(oper1.nam);
+console.log(oper1.myDatetime);

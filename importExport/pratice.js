@@ -5,5 +5,9 @@ const divide = (a, b) => {
 //   return "anish pokharel";
 // };
 const nam = "anish pokharel";
-module.exports.divide = divide;
+const myDateTime = () => {
+  return Date;
+};
+// module.exports.divide = divide;
 module.exports.nam = nam;
+module.exports.myDatetime = myDatetime;
