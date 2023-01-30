@@ -10,6 +10,12 @@ const sub = (a, b) => {
 const mult = (a, b) => {
   return a * b;
 };
+const divi = (a, b) => {
+  return a / b;
+};
+
+module.exports.divi = divi;
+
 module.exports.add = add;
 module.exports.sub = sub;
 module.exports.mult = mult;
