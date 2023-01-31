@@ -14,7 +14,7 @@ const divi = (a, b) => {
   return a / b;
 };
 
-// module.exports.divi = divi;
+// module.exports.divi1 = divi;
 // module.exports.add = add;
 // module.exports.sub = sub;
 // module.exports.mult = mult;
