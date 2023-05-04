@@ -12,3 +12,4 @@ module.exports.divide = divide;
 module.exports.multiple = multiple;
 // module.exports.nam = nam;
 // module.exports.myDatetime = myDatetime;
+
