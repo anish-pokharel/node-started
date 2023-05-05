@@ -1,4 +1,4 @@
-// const chalk = require("chalk");
+const chalk = require("chalk");
 // console.log(chalk.red.inverse("failed"));
 // console.log("hello");
 // console.log(chalk.yellow.inverse("sucess"));
@@ -10,4 +10,4 @@
 
 var validator = require("validator");
 const res = validator.isEmail("anish@anish.com"); //=> true
-console.log(res);
+console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
