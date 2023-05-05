@@ -11,3 +11,6 @@ const chalk = require("chalk");
 var validator = require("validator");
 const res = validator.isEmail("anish@anish.com"); //=> true
 console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
+var validator = require("validator");
+const res = validator.isEmail("anish@anish.com"); //=> true
+console.log(res ? chalk.green.inverse(res) : chalk.red.inverse(res));
